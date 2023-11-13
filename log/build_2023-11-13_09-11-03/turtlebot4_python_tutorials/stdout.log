@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info
+writing ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build
+creating /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib
+creating /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+copying turtlebot4_python_tutorials/__init__.py -> /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+copying turtlebot4_python_tutorials/first_node.py -> /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+copying turtlebot4_python_tutorials/turtlebot4_first_python_node.py -> /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+running install
+running install_lib
+creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+copying /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/__init__.py -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+copying /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/first_node.py -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+copying /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/turtlebot4_first_python_node.py -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+byte-compiling /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials/first_node.py to first_node.cpython-310.pyc
+byte-compiling /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials/turtlebot4_first_python_node.py to turtlebot4_first_python_node.cpython-310.pyc
+running install_data
+creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index
+creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index/resource_index
+creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index/resource_index/packages
+copying resource/turtlebot4_python_tutorials -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index/resource_index/packages
+copying package.xml -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/turtlebot4_python_tutorials
+running install_egg_info
+Copying ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info to /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtlebot4_first_python_node script to /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+writing list of installed files to '/home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/install.log'

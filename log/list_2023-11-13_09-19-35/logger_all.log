@@ -1,0 +1,174 @@
+[3.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/eduardo/turtlebot4_ws']
+[3.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/eduardo/turtlebot4_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3eed54e170>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f3eed882020>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f3eed882020>>)
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.272s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eduardo/turtlebot4_ws'
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'ignore'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'ignore_ament_install'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extensions ['colcon_pkg']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'colcon_pkg'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extensions ['colcon_meta']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'colcon_meta'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extensions ['ros']
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'ros'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extensions ['cmake', 'python']
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'cmake'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'python'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extensions ['python_setup_py']
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws) by extension 'python_setup_py'
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/build) by extension 'ignore'
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/build) ignored
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/install) by extension 'ignore'
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/install) ignored
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/log) by extension 'ignore'
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/log) ignored
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'ignore'
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'ignore_ament_install'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extensions ['colcon_pkg']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'colcon_pkg'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extensions ['colcon_meta']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'colcon_meta'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extensions ['ros']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'ros'
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extensions ['cmake', 'python']
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'cmake'
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'python'
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extensions ['python_setup_py']
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src) by extension 'python_setup_py'
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extensions ['ignore', 'ignore_ament_install']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extension 'ignore'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extension 'ignore_ament_install'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extensions ['colcon_pkg']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extension 'colcon_pkg'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extensions ['colcon_meta']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extension 'colcon_meta'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extensions ['ros']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/robot_movement) by extension 'ros'
+[3.315s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/robot_movement' with type 'ros.ament_python' and name 'robot_movement'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extensions ['ignore', 'ignore_ament_install']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'ignore'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'ignore_ament_install'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extensions ['colcon_pkg']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'colcon_pkg'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extensions ['colcon_meta']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'colcon_meta'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extensions ['ros']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'ros'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extensions ['cmake', 'python']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'cmake'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'python'
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extensions ['python_setup_py']
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4) by extension 'python_setup_py'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extensions ['ignore', 'ignore_ament_install']
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extension 'ignore'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extension 'ignore_ament_install'
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extensions ['colcon_pkg']
+[3.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extension 'colcon_pkg'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extensions ['colcon_meta']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extension 'colcon_meta'
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extensions ['ros']
+[3.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description) by extension 'ros'
+[3.320s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description' with type 'ros.ament_cmake' and name 'turtlebot4_description'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extension 'ignore'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extension 'ignore_ament_install'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extensions ['colcon_pkg']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extension 'colcon_pkg'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extensions ['colcon_meta']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extension 'colcon_meta'
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extensions ['ros']
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs) by extension 'ros'
+[3.323s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs' with type 'ros.ament_cmake' and name 'turtlebot4_msgs'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extensions ['ignore', 'ignore_ament_install']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extension 'ignore'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extension 'ignore_ament_install'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extensions ['colcon_pkg']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extension 'colcon_pkg'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extensions ['colcon_meta']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extension 'colcon_meta'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extensions ['ros']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation) by extension 'ros'
+[3.325s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation' with type 'ros.ament_cmake' and name 'turtlebot4_navigation'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extensions ['ignore', 'ignore_ament_install']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extension 'ignore'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extension 'ignore_ament_install'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extensions ['colcon_pkg']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extension 'colcon_pkg'
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extensions ['colcon_meta']
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extension 'colcon_meta'
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extensions ['ros']
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node) by extension 'ros'
+[3.330s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_node' with type 'ros.ament_cmake' and name 'turtlebot4_node'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extension 'ignore'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extension 'ignore_ament_install'
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extensions ['colcon_pkg']
+[3.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extension 'colcon_pkg'
+[3.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extensions ['colcon_meta']
+[3.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extension 'colcon_meta'
+[3.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extensions ['ros']
+[3.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials) by extension 'ros'
+[3.333s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials' with type 'ros.ament_python' and name 'turtlebot4_python_tutorials'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['ignore', 'ignore_ament_install']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'ignore'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'ignore_ament_install'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['colcon_pkg']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'colcon_pkg'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['colcon_meta']
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'colcon_meta'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['ros']
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'ros'
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['cmake', 'python']
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'cmake'
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'python'
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['python_setup_py']
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator) by extension 'python_setup_py'
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'ignore'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'ignore_ament_install'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['colcon_pkg']
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'colcon_pkg'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['colcon_meta']
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'colcon_meta'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['ros']
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'ros'
+[3.344s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup' with type 'ros.ament_cmake' and name 'turtlebot4_ignition_bringup'
+[3.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['ignore', 'ignore_ament_install']
+[3.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'ignore'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'ignore_ament_install'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['colcon_pkg']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'colcon_pkg'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['colcon_meta']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'colcon_meta'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['ros']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'ros'
+[3.347s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins' with type 'ros.ament_cmake' and name 'turtlebot4_ignition_gui_plugins'
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'ignore'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'ignore_ament_install'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['colcon_pkg']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'colcon_pkg'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['colcon_meta']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'colcon_meta'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['ros']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'ros'
+[3.351s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox' with type 'ros.ament_cmake' and name 'turtlebot4_ignition_toolbox'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['ignore', 'ignore_ament_install']
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ignore'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ignore_ament_install'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['colcon_pkg']
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'colcon_pkg'
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['colcon_meta']
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'colcon_meta'
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['ros']
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ros'
+[3.355s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator' with type 'ros.ament_cmake' and name 'turtlebot4_simulator'
+[3.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

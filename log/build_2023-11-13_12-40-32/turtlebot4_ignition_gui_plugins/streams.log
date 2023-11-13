@@ -1,0 +1,25 @@
+[0.437s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins -- -j12 -l12
+[1.109s] [ 16%] [34m[1mAutomatic MOC for target Turtlebot4Hmi[0m
+[1.109s] [ 16%] Built target Turtlebot4Hmi_autogen
+[1.109s] [100%] Built target Turtlebot4Hmi
+[1.614s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins -- -j12 -l12
+[1.667s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins
+[1.688s] -- Install configuration: ""
+[1.689s] -- Execute custom install script
+[1.691s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/lib/libTurtlebot4Hmi.so
+[1.692s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_gui_plugins
+[1.693s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_gui_plugins
+[1.693s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.sh
+[1.694s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.dsv
+[1.695s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/path.sh
+[1.695s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/path.dsv
+[1.696s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.bash
+[1.696s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.sh
+[1.696s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.zsh
+[1.697s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.dsv
+[1.697s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/package.dsv
+[1.707s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/packages/turtlebot4_ignition_gui_plugins
+[1.708s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/cmake/turtlebot4_ignition_gui_pluginsConfig.cmake
+[1.709s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/cmake/turtlebot4_ignition_gui_pluginsConfig-version.cmake
+[1.710s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/package.xml
+[1.843s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins

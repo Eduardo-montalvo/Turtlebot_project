@@ -1,0 +1,42 @@
+[3.668s] Invoking command in '/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials': PYTHONPATH=/home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/prefix_override:/home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot4_python_tutorials build --build-base /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build install --record /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/install.log --single-version-externally-managed
+[4.523s] running egg_info
+[4.525s] creating ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info
+[4.525s] writing ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/PKG-INFO
+[4.526s] writing dependency_links to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/dependency_links.txt
+[4.527s] writing entry points to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/entry_points.txt
+[4.527s] writing requirements to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/requires.txt
+[4.528s] writing top-level names to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/top_level.txt
+[4.529s] writing manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+[4.531s] reading manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+[4.535s] writing manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+[4.535s] running build
+[4.536s] running build_py
+[4.537s] creating /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build
+[4.538s] creating /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib
+[4.538s] creating /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[4.539s] copying turtlebot4_python_tutorials/__init__.py -> /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[4.540s] copying turtlebot4_python_tutorials/first_node.py -> /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[4.540s] copying turtlebot4_python_tutorials/turtlebot4_first_python_node.py -> /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[4.541s] running install
+[4.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.544s]   warnings.warn(
+[4.544s] running install_lib
+[4.547s] creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+[4.547s] copying /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/__init__.py -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+[4.548s] copying /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/first_node.py -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+[4.548s] copying /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/turtlebot4_first_python_node.py -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials
+[4.548s] byte-compiling /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials/__init__.py to __init__.cpython-310.pyc
+[4.550s] byte-compiling /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials/first_node.py to first_node.cpython-310.pyc
+[4.550s] byte-compiling /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials/turtlebot4_first_python_node.py to turtlebot4_first_python_node.cpython-310.pyc
+[4.553s] running install_data
+[4.553s] creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index
+[4.554s] creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index/resource_index
+[4.559s] creating /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index/resource_index/packages
+[4.560s] copying resource/turtlebot4_python_tutorials -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/ament_index/resource_index/packages
+[4.560s] copying package.xml -> /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/share/turtlebot4_python_tutorials
+[4.561s] running install_egg_info
+[4.566s] Copying ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info to /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages/turtlebot4_python_tutorials-0.0.0-py3.10.egg-info
+[4.566s] running install_scripts
+[4.617s] Installing turtlebot4_first_python_node script to /home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[4.618s] writing list of installed files to '/home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/install.log'
+[4.678s] Invoked command in '/home/eduardo/turtlebot4_ws/src/turtlebot4_python_tutorials' returned '0': PYTHONPATH=/home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/prefix_override:/home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot4_python_tutorials build --build-base /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/build install --record /home/eduardo/turtlebot4_ws/build/turtlebot4_python_tutorials/install.log --single-version-externally-managed
