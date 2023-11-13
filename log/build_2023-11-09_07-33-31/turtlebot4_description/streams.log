@@ -1,0 +1,68 @@
+[0.117s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eduardo/turtlebot4_ws/install/turtlebot4_description
+[0.248s] -- The C compiler identification is GNU 11.4.0
+[0.363s] -- The CXX compiler identification is GNU 11.4.0
+[0.376s] -- Detecting C compiler ABI info
+[0.460s] -- Detecting C compiler ABI info - done
+[0.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.476s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.595s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.790s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.862s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.909s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.983s] -- Found irobot_create_description: 2.1.0 (/opt/ros/humble/share/irobot_create_description/cmake)
+[0.985s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.081s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.085s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.087s] -- Added test 'lint_cmake' to check CMake code style
+[1.087s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.090s] -- Added test 'xmllint' to check XML markup files
+[1.092s] -- Configuring done
+[1.096s] -- Generating done
+[1.097s] -- Build files have been written to: /home/eduardo/turtlebot4_ws/build/turtlebot4_description
+[1.105s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eduardo/turtlebot4_ws/install/turtlebot4_description
+[1.107s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_description -- -j12 -l12
+[1.152s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_description -- -j12 -l12
+[1.188s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_description
+[1.196s] -- Install configuration: ""
+[1.197s] -- Execute custom install script
+[1.198s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[1.207s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[1.217s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[1.227s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[1.237s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[1.246s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[1.256s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[1.266s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[1.276s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[1.286s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[1.296s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[1.306s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[1.316s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[1.326s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[1.335s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[1.345s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[1.355s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[1.364s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[1.374s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[1.384s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[1.394s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[1.404s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[1.414s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[1.424s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[1.434s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[1.444s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[1.454s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[1.464s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[1.474s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[1.485s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[1.496s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[1.506s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[1.516s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[1.526s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[1.539s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_description
