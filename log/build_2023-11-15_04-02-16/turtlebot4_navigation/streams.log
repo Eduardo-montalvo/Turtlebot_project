@@ -1,0 +1,51 @@
+[0.380s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/eduardo/turtlebot4_ws/install/robot_movement:/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_navigation -- -j12 -l12
+[0.495s] Built target ament_cmake_python_symlink_turtlebot4_navigation
+[1.085s] running egg_info
+[1.134s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[1.134s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[1.135s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[1.287s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.295s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.342s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[1.369s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/eduardo/turtlebot4_ws/install/robot_movement:/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_navigation -- -j12 -l12
+[1.745s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/eduardo/turtlebot4_ws/install/robot_movement:/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_navigation
+[1.758s] -- Install configuration: ""
+[1.760s] -- Execute custom install script
+[1.761s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[1.762s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[1.762s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[1.763s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[1.764s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[1.765s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[1.765s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+[1.766s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+[1.767s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+[1.767s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+[1.768s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+[1.768s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+[1.768s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[1.768s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[1.769s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/PKG-INFO
+[1.769s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/SOURCES.txt
+[1.769s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/dependency_links.txt
+[1.769s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/top_level.txt
+[1.770s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py
+[1.770s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[1.770s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py
+[1.770s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[1.770s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[1.771s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[1.771s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[1.771s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[1.772s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[1.772s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[1.772s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[1.772s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[1.773s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[1.773s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[1.790s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[1.791s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[1.791s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[1.792s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[1.859s] Listing '/home/eduardo/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation'...
+[1.941s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eduardo/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/eduardo/turtlebot4_ws/install/robot_movement:/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_navigation

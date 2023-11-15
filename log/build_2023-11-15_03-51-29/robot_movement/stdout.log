@@ -1,0 +1,25 @@
+running develop
+Removing /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot-movement.egg-link (link to .)
+running egg_info
+writing ../../build/robot_movement/robot_movement.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_movement/robot_movement.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_movement/robot_movement.egg-info/entry_points.txt
+writing requirements to ../../build/robot_movement/robot_movement.egg-info/requires.txt
+writing top-level names to ../../build/robot_movement/robot_movement.egg-info/top_level.txt
+reading manifest file '../../build/robot_movement/robot_movement.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_movement/robot_movement.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement
+copying /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement/node_movement.py -> /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement
+copying /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement/__init__.py -> /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement
+byte-compiling /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement/node_movement.py to node_movement.cpython-310.pyc
+byte-compiling /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/robot_movement/robot_movement.egg-info to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Movement_exec script to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/robot_movement
+writing list of installed files to '/home/eduardo/turtlebot4_ws/build/robot_movement/install.log'

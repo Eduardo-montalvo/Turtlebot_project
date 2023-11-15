@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing robot_movement.egg-info/PKG-INFO
+writing dependency_links to robot_movement.egg-info/dependency_links.txt
+writing entry points to robot_movement.egg-info/entry_points.txt
+writing requirements to robot_movement.egg-info/requires.txt
+writing top-level names to robot_movement.egg-info/top_level.txt
+reading manifest file 'robot_movement.egg-info/SOURCES.txt'
+writing manifest file 'robot_movement.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot-movement.egg-link (link to .)
+Installing Movement_exec script to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/robot_movement
+
+Installed /home/eduardo/turtlebot4_ws/build/robot_movement
+running install_data
