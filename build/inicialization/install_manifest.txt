@@ -1,0 +1,16 @@
+/home/eduardo/turtlebot4_ws/install/inicialization/share/$<{PROJECT_NAME}//launch/demo.launch.xml
+/home/eduardo/turtlebot4_ws/install/inicialization/share/ament_index/resource_index/package_run_dependencies/inicialization
+/home/eduardo/turtlebot4_ws/install/inicialization/share/ament_index/resource_index/parent_prefix_path/inicialization
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/ament_prefix_path.sh
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/ament_prefix_path.dsv
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/path.sh
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/path.dsv
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.bash
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.sh
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.zsh
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.dsv
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/package.dsv
+/home/eduardo/turtlebot4_ws/install/inicialization/share/ament_index/resource_index/packages/inicialization
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/cmake/inicializationConfig.cmake
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/cmake/inicializationConfig-version.cmake
+/home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/package.xml

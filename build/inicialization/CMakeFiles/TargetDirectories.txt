@@ -1,0 +1,9 @@
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/uninstall.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/inicialization_uninstall.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/test.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/edit_cache.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/rebuild_cache.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/list_install_components.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/install.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/install/local.dir
+/home/eduardo/turtlebot4_ws/build/inicialization/CMakeFiles/install/strip.dir
