@@ -2,19 +2,19 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-from algo import Msg
+from example_interfaces.msg import String
 
 class MyNode(Node):
     def __init__(self):
         super().__init__("Movement_publisher")
         self.publisher =self.create_publisher(Twist,'/cmd_vel', 10)
-        self.inst_subscriber = self.create_subscription(Pakage, "", self.inst_callback, 10)
+        self.inst_subscriber = self.create_subscription(String, "instruction_topic", self.inst_callback, 10)
         self.timer_ = self.create_timer(1.0, self.timer_callback)
       
-    def timer_callback(self, msg: algo):
+    def timer_callback(self, msg: String):
         msg=Twist()
-        msg2 = Pakage() 
-        if (msg2 == "Foward"):
+        msg2 = String() 
+        if (msg2.data == "Foward"):
             msg.linear.x = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.z = 0.0 #Aqui va el valor al que vamos a meter
@@ -22,7 +22,7 @@ class MyNode(Node):
             msg.angular.x = 0.0 #Aqui va el valor al que vamos a meter
             msg.angular.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.angular.z = 0.0 #Aqui va el valor al que vamos a meter
-        elif(msg2 == "Backward"):
+        elif(msg2.data == "Backward"):
             msg.linear.x = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.z = 0.0 #Aqui va el valor al que vamos a meter
