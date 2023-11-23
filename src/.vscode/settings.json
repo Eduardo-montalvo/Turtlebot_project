@@ -14,5 +14,6 @@
         "/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "ros.distro": "humble"
 }

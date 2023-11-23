@@ -1,0 +1,40 @@
+[0.582s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_description -- -j12 -l12
+[2.026s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_description -- -j12 -l12
+[2.127s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_description
+[2.153s] -- Install configuration: ""
+[2.155s] -- Execute custom install script
+[2.156s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[2.158s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[2.159s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[2.159s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[2.159s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[2.160s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[2.161s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[2.161s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[2.161s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[2.162s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[2.162s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[2.164s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[2.165s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[2.167s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[2.168s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[2.169s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[2.170s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[2.171s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[2.174s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[2.174s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[2.176s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[2.179s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[2.180s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[2.181s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[2.183s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[2.184s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[2.185s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[2.186s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[2.187s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[2.187s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[2.211s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[2.211s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[2.212s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[2.212s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[2.220s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_description

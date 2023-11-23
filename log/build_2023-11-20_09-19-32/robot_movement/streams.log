@@ -1,0 +1,21 @@
+[4.205s] Invoking command in '/home/eduardo/turtlebot4_ws/src/robot_movement': PYTHONPATH=/home/eduardo/turtlebot4_ws/build/robot_movement/prefix_override:/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_movement build --build-base /home/eduardo/turtlebot4_ws/build/robot_movement/build install --record /home/eduardo/turtlebot4_ws/build/robot_movement/install.log --single-version-externally-managed
+[5.136s] running egg_info
+[5.138s] writing ../../build/robot_movement/robot_movement.egg-info/PKG-INFO
+[5.138s] writing dependency_links to ../../build/robot_movement/robot_movement.egg-info/dependency_links.txt
+[5.139s] writing entry points to ../../build/robot_movement/robot_movement.egg-info/entry_points.txt
+[5.139s] writing requirements to ../../build/robot_movement/robot_movement.egg-info/requires.txt
+[5.139s] writing top-level names to ../../build/robot_movement/robot_movement.egg-info/top_level.txt
+[5.144s] reading manifest file '../../build/robot_movement/robot_movement.egg-info/SOURCES.txt'
+[5.148s] writing manifest file '../../build/robot_movement/robot_movement.egg-info/SOURCES.txt'
+[5.148s] running build
+[5.148s] running build_py
+[5.149s] running install
+[5.149s] running install_lib
+[5.153s] running install_data
+[5.155s] running install_egg_info
+[5.160s] removing '/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[5.160s] Copying ../../build/robot_movement/robot_movement.egg-info to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement-0.0.0-py3.10.egg-info
+[5.163s] running install_scripts
+[5.219s] Installing Movement_exec script to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/robot_movement
+[5.220s] writing list of installed files to '/home/eduardo/turtlebot4_ws/build/robot_movement/install.log'
+[5.277s] Invoked command in '/home/eduardo/turtlebot4_ws/src/robot_movement' returned '0': PYTHONPATH=/home/eduardo/turtlebot4_ws/build/robot_movement/prefix_override:/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_movement build --build-base /home/eduardo/turtlebot4_ws/build/robot_movement/build install --record /home/eduardo/turtlebot4_ws/build/robot_movement/install.log --single-version-externally-managed
