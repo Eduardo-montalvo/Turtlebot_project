@@ -15,7 +15,7 @@ class MyNode(Node):
         msg=Twist()
         msg2 = String() 
         if (msg2.data == "Foward"):
-            msg.linear.x = 0.0 #Aqui va el valor al que vamos a meter
+            msg.linear.x = 1.0 #Aqui va el valor al que vamos a meter
             msg.linear.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.z = 0.0 #Aqui va el valor al que vamos a meter
 
@@ -23,7 +23,7 @@ class MyNode(Node):
             msg.angular.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.angular.z = 0.0 #Aqui va el valor al que vamos a meter
         elif(msg2.data == "Backward"):
-            msg.linear.x = 0.0 #Aqui va el valor al que vamos a meter
+            msg.linear.x = -1.0 #Aqui va el valor al que vamos a meter
             msg.linear.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.z = 0.0 #Aqui va el valor al que vamos a meter
 
