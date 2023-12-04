@@ -1,0 +1,41 @@
+[0.254s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_msgs -- -j12 -l12
+[0.299s] [  2%] Built target turtlebot4_msgs__cpp
+[0.299s] [ 12%] Built target turtlebot4_msgs__rosidl_generator_c
+[0.307s] [ 12%] Built target ament_cmake_python_symlink_turtlebot4_msgs
+[0.328s] [ 23%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[0.329s] [ 34%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[0.329s] [ 44%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[0.330s] [ 55%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[0.332s] [ 65%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[0.334s] [ 76%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[0.352s] [ 76%] Built target turtlebot4_msgs
+[0.371s] [ 78%] Built target turtlebot4_msgs__py
+[0.391s] [ 87%] Built target turtlebot4_msgs__rosidl_generator_py
+[0.411s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.411s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext
+[0.411s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_c__pyext
+[0.589s] Traceback (most recent call last):
+[0.589s]   File "/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs/ament_cmake_python/turtlebot4_msgs/setup.py", line 4, in <module>
+[0.589s]     setup(
+[0.589s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+[0.589s]     return distutils.core.setup(**attrs)
+[0.589s]   File "/usr/lib/python3.10/distutils/core.py", line 108, in setup
+[0.589s]     _setup_distribution = dist = klass(attrs)
+[0.589s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 453, in __init__
+[0.590s]     _Distribution.__init__(
+[0.590s]   File "/usr/lib/python3.10/distutils/dist.py", line 292, in __init__
+[0.590s]     self.finalize_options()
+[0.590s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 830, in finalize_options
+[0.590s]     for ep in sorted(loaded, key=by_order):
+[0.590s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 829, in <lambda>
+[0.590s]     loaded = map(lambda e: e.load(), filtered)
+[0.590s]   File "/home/eduardo/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2449, in load
+[0.590s]     self.require(*args, **kwargs)
+[0.590s]   File "/home/eduardo/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2472, in require
+[0.590s]     items = working_set.resolve(reqs, env, installer, extras=self.extras)
+[0.590s]   File "/home/eduardo/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 777, in resolve
+[0.590s]     raise VersionConflict(dist, req).with_context(dependent_req)
+[0.590s] pkg_resources.VersionConflict: (setuptools 58.2.0 (/home/eduardo/.local/lib/python3.10/site-packages), Requirement.parse('setuptools>=62.4'))
+[0.609s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlebot4_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlebot4_msgs_egg] Error 1
+[0.609s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_turtlebot4_msgs_egg.dir/all] Error 2
+[0.610s] gmake: *** [Makefile:146: all] Error 2

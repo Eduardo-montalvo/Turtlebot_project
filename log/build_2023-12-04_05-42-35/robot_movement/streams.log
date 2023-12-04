@@ -1,0 +1,44 @@
+[1.333s] Invoking command in '/home/eduardo/turtlebot4_ws/src/robot_movement': PYTHONPATH=/home/eduardo/turtlebot4_ws/build/robot_movement/prefix_override:/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_movement build --build-base /home/eduardo/turtlebot4_ws/build/robot_movement/build install --record /home/eduardo/turtlebot4_ws/build/robot_movement/install.log --single-version-externally-managed
+[1.681s] running egg_info
+[1.697s] writing ../../build/robot_movement/robot_movement.egg-info/PKG-INFO
+[1.698s] writing dependency_links to ../../build/robot_movement/robot_movement.egg-info/dependency_links.txt
+[1.698s] writing entry points to ../../build/robot_movement/robot_movement.egg-info/entry_points.txt
+[1.698s] writing requirements to ../../build/robot_movement/robot_movement.egg-info/requires.txt
+[1.698s] writing top-level names to ../../build/robot_movement/robot_movement.egg-info/top_level.txt
+[1.734s] reading manifest file '../../build/robot_movement/robot_movement.egg-info/SOURCES.txt'
+[1.734s] writing manifest file '../../build/robot_movement/robot_movement.egg-info/SOURCES.txt'
+[1.735s] running build
+[1.735s] running build_py
+[1.735s] copying robot_movement/node_movement.py -> /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement
+[1.736s] copying robot_movement/velocity_publisher.py -> /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement
+[1.736s] copying robot_movement/__init__.py -> /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement
+[1.736s] running install
+[1.737s] /home/eduardo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.737s] !!
+[1.737s] 
+[1.737s]         ********************************************************************************
+[1.737s]         Please avoid running ``setup.py`` directly.
+[1.737s]         Instead, use pypa/build, pypa/installer or other
+[1.737s]         standards-based tools.
+[1.738s] 
+[1.738s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.738s]         ********************************************************************************
+[1.738s] 
+[1.738s] !!
+[1.738s]   self.initialize_options()
+[1.739s] running install_lib
+[1.757s] copying /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement/node_movement.py -> /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement
+[1.757s] copying /home/eduardo/turtlebot4_ws/build/robot_movement/build/lib/robot_movement/velocity_publisher.py -> /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement
+[1.758s] byte-compiling /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement/node_movement.py to node_movement.cpython-310.pyc
+[1.758s] byte-compiling /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement/velocity_publisher.py to velocity_publisher.cpython-310.pyc
+[1.759s] running install_data
+[1.775s] copying resource/robot_movement -> /home/eduardo/turtlebot4_ws/install/robot_movement/share/ament_index/resource_index/packages
+[1.776s] copying package.xml -> /home/eduardo/turtlebot4_ws/install/robot_movement/share/robot_movement
+[1.776s] running install_egg_info
+[1.792s] removing '/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[1.792s] Copying ../../build/robot_movement/robot_movement.egg-info to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages/robot_movement-0.0.0-py3.10.egg-info
+[1.793s] running install_scripts
+[1.841s] Installing Messager script to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/robot_movement
+[1.841s] Installing Movement_exec script to /home/eduardo/turtlebot4_ws/install/robot_movement/lib/robot_movement
+[1.841s] writing list of installed files to '/home/eduardo/turtlebot4_ws/build/robot_movement/install.log'
+[1.866s] Invoked command in '/home/eduardo/turtlebot4_ws/src/robot_movement' returned '0': PYTHONPATH=/home/eduardo/turtlebot4_ws/build/robot_movement/prefix_override:/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_movement build --build-base /home/eduardo/turtlebot4_ws/build/robot_movement/build install --record /home/eduardo/turtlebot4_ws/build/robot_movement/install.log --single-version-externally-managed

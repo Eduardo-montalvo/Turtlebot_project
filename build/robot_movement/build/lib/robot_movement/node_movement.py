@@ -8,14 +8,14 @@ class MyNode(Node):
     def __init__(self):
         super().__init__("Movement_publisher")
         self.publisher =self.create_publisher(Twist,'/cmd_vel', 10)
-        self.inst_subscriber = self.create_subscription(String, "instruction_topic", self.inst_callback, 10)
+        self.inst_subscriber = self.create_subscription(String, "instruction_topic", self.timer_callback, 10)
         self.timer_ = self.create_timer(1.0, self.timer_callback)
       
     def timer_callback(self, msg: String):
         msg=Twist()
         msg2 = String() 
         if (msg2.data == "Foward"):
-            msg.linear.x = 0.0 #Aqui va el valor al que vamos a meter
+            msg.linear.x = 1.0 #Aqui va el valor al que vamos a meter
             msg.linear.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.z = 0.0 #Aqui va el valor al que vamos a meter
 
@@ -23,7 +23,7 @@ class MyNode(Node):
             msg.angular.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.angular.z = 0.0 #Aqui va el valor al que vamos a meter
         elif(msg2.data == "Backward"):
-            msg.linear.x = 0.0 #Aqui va el valor al que vamos a meter
+            msg.linear.x = -1.0 #Aqui va el valor al que vamos a meter
             msg.linear.y = 0.0 #Aqui va el valor al que vamos a meter
             msg.linear.z = 0.0 #Aqui va el valor al que vamos a meter
 
