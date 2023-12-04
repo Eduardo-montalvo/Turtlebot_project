@@ -1,0 +1,79 @@
+[0.188s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eduardo/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins -DCMAKE_INSTALL_PREFIX=/home/eduardo/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins
+[0.198s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.345s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.461s] -- Looking for ignition-gui6 -- found version 6.8.0
+[0.465s] -- Searching for dependencies of ignition-gui6
+[0.489s] -- Checking for module 'tinyxml2'
+[0.501s] --   Found tinyxml2, version 9.0.0
+[0.535s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.536s] -- Searching for dependencies of ignition-math6
+[0.537s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.538s] -- Searching for dependencies of ignition-common4
+[0.538s] -- Looking for dlfcn.h - found
+[0.538s] -- Looking for libdl - found
+[0.546s] -- Checking for module 'uuid'
+[0.558s] --   Found uuid, version 2.37.2
+[0.589s] -- Searching for <ignition-common4> component [profiler]
+[0.590s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[0.590s] -- Searching for dependencies of ignition-common4-profiler
+[0.592s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.592s] -- Searching for dependencies of ignition-plugin1
+[0.593s] -- Searching for <ignition-plugin1> component [loader]
+[0.594s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.594s] -- Searching for dependencies of ignition-plugin1-loader
+[0.594s] -- Searching for <ignition-plugin1> component [register]
+[0.595s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.595s] -- Searching for dependencies of ignition-plugin1-register
+[0.596s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.597s] -- Searching for dependencies of ignition-transport11
+[0.616s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.630s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.633s] -- Checking for module 'libzmq >= 4'
+[0.643s] --   Found libzmq , version 4.3.4
+[0.687s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.687s] -- Searching for dependencies of ignition-utils1
+[0.688s] -- Searching for <ignition-utils1> component [cli]
+[0.688s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.689s] -- Searching for dependencies of ignition-utils1-cli
+[0.690s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.690s] -- Searching for dependencies of ignition-msgs8
+[0.707s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.708s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.715s] -- Looking for ignition-rendering6 -- found version 6.6.2
+[0.716s] -- Searching for dependencies of ignition-rendering6
+[0.716s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.717s] -- Searching for dependencies of ignition-math6
+[0.717s] -- Searching for <ignition-math6> component [eigen3]
+[0.717s] -- Looking for ignition-math6-eigen3 -- found version 6.15.0
+[0.718s] -- Searching for dependencies of ignition-math6-eigen3
+[0.719s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.719s] -- Searching for dependencies of ignition-common4
+[0.720s] -- Looking for dlfcn.h - found
+[0.720s] -- Looking for libdl - found
+[0.730s] -- Searching for <ignition-common4> component [graphics]
+[0.730s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[0.730s] -- Searching for dependencies of ignition-common4-graphics
+[0.731s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.731s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.732s] -- Searching for <ignition-common4> component [events]
+[0.732s] -- Looking for ignition-common4-events -- found version 4.7.0
+[0.732s] -- Searching for dependencies of ignition-common4-events
+[0.733s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.734s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.734s] -- Searching for dependencies of ignition-plugin1
+[0.734s] -- Searching for <ignition-plugin1> component [all]
+[0.734s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[0.735s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.737s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.740s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.745s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.745s] -- Configured cppcheck include dirs: 
+[0.745s] -- Configured cppcheck exclude dirs and/or files: 
+[0.745s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.746s] -- Configured cpplint exclude dirs and/or files: 
+[0.746s] -- Added test 'lint_cmake' to check CMake code style
+[0.747s] -- Added test 'xmllint' to check XML markup files
+[0.748s] -- Configuring done
+[0.762s] -- Generating done
+[0.763s] -- Build files have been written to: /home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins

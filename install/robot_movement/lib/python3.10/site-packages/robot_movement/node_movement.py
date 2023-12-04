@@ -8,7 +8,7 @@ class MyNode(Node):
     def __init__(self):
         super().__init__("Movement_publisher")
         self.publisher =self.create_publisher(Twist,'/cmd_vel', 10)
-        self.inst_subscriber = self.create_subscription(String, "instruction_topic", self.inst_callback, 10)
+        self.inst_subscriber = self.create_subscription(String, "instruction_topic", self.timer_callback, 10)
         self.timer_ = self.create_timer(1.0, self.timer_callback)
       
     def timer_callback(self, msg: String):

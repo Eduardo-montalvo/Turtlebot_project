@@ -1,0 +1,4 @@
+[0.167s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins -- -j12 -l12
+[0.213s] [ 16%] [34m[1mAutomatic MOC for target Turtlebot4Hmi[0m
+[0.238s] [ 16%] Built target Turtlebot4Hmi_autogen
+[0.265s] [100%] Built target Turtlebot4Hmi

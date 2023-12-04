@@ -1,0 +1,27 @@
+[0.122s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_navigation -- -j12 -l12
+[0.170s] Built target ament_cmake_python_symlink_turtlebot4_navigation
+[0.448s] Traceback (most recent call last):
+[0.448s]   File "/home/eduardo/turtlebot4_ws/build/turtlebot4_navigation/ament_cmake_python/turtlebot4_navigation/setup.py", line 4, in <module>
+[0.448s]     setup(
+[0.448s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+[0.448s]     return distutils.core.setup(**attrs)
+[0.448s]   File "/usr/lib/python3.10/distutils/core.py", line 108, in setup
+[0.448s]     _setup_distribution = dist = klass(attrs)
+[0.448s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 453, in __init__
+[0.448s]     _Distribution.__init__(
+[0.449s]   File "/usr/lib/python3.10/distutils/dist.py", line 292, in __init__
+[0.449s]     self.finalize_options()
+[0.449s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 830, in finalize_options
+[0.449s]     for ep in sorted(loaded, key=by_order):
+[0.449s]   File "/home/eduardo/.local/lib/python3.10/site-packages/setuptools/dist.py", line 829, in <lambda>
+[0.449s]     loaded = map(lambda e: e.load(), filtered)
+[0.449s]   File "/home/eduardo/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2449, in load
+[0.449s]     self.require(*args, **kwargs)
+[0.449s]   File "/home/eduardo/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2472, in require
+[0.449s]     items = working_set.resolve(reqs, env, installer, extras=self.extras)
+[0.449s]   File "/home/eduardo/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 777, in resolve
+[0.449s]     raise VersionConflict(dist, req).with_context(dependent_req)
+[0.449s] pkg_resources.VersionConflict: (setuptools 58.2.0 (/home/eduardo/.local/lib/python3.10/site-packages), Requirement.parse('setuptools>=62.4'))
+[0.470s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlebot4_navigation_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlebot4_navigation_egg] Error 1
+[0.470s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/ament_cmake_python_build_turtlebot4_navigation_egg.dir/all] Error 2
+[0.470s] gmake: *** [Makefile:146: all] Error 2

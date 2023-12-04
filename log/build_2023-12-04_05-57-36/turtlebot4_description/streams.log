@@ -1,0 +1,14 @@
+[0.236s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DCMAKE_INSTALL_PREFIX=/home/eduardo/turtlebot4_ws/install/turtlebot4_description
+[0.247s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.405s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.440s] -- Found irobot_create_description: 2.1.0 (/opt/ros/humble/share/irobot_create_description/cmake)
+[0.440s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.544s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.548s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.549s] -- Added test 'lint_cmake' to check CMake code style
+[0.550s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.553s] -- Added test 'xmllint' to check XML markup files
+[0.554s] -- Configuring done
+[0.558s] -- Generating done
+[0.560s] -- Build files have been written to: /home/eduardo/turtlebot4_ws/build/turtlebot4_description

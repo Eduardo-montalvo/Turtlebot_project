@@ -10,3 +10,8 @@ Instructions on how to clone the repo
 Launch the simulation with the launch file
 1. source install/setup.bash
 2. ros2 launch inicialization demo.launch.xml
+
+How to launch the nodes
+1. source ~/.bashrc 
+2. ros2 run robot_movement Movement_exec
+3. ros2 run robot_movement Messager
