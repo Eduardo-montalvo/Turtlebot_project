@@ -1,0 +1,33 @@
+[0.063s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_node -- -j12 -l12
+[0.117s] [ 75%] Built target turtlebot4_node_lib
+[0.141s] [ 87%] [32m[1mLinking CXX executable turtlebot4_node[0m
+[2.577s] [100%] Built target turtlebot4_node
+[2.586s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_node -- -j12 -l12
+[2.616s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_node
+[2.624s] -- Install configuration: ""
+[2.624s] -- Execute custom install script
+[2.625s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node
+[2.625s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/action.hpp
+[2.625s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp
+[2.626s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/display.hpp
+[2.626s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/leds.hpp
+[2.626s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/service.hpp
+[2.626s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp
+[2.626s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/include/turtlebot4_node/utils.hpp
+[2.626s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node
+[2.627s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node
+[2.627s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh
+[2.627s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv
+[2.627s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh
+[2.627s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv
+[2.628s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash
+[2.628s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh
+[2.628s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh
+[2.628s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv
+[2.629s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/package.dsv
+[2.638s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node
+[2.638s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.638s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake
+[2.638s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake
+[2.638s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_node/share/turtlebot4_node/package.xml
+[2.640s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_node
