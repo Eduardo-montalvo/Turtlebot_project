@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="robot_movement" exec="node_movement" />
-    <!--node pkg="robot_movement" exec="velocity_publisher" /-->
-    <!--node pkg="turtlebot4_ignition_bringup" exec="ignition.launch.py" /-->
-</launch>

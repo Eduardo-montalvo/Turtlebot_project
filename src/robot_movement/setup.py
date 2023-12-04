@@ -20,8 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "Movement_exec = robot_movement.node_movement:main",
-            "Messager = robot_movement.velocity_publisher:main"
         ],
     },
 )

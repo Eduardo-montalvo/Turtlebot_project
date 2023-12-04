@@ -1,0 +1,22 @@
+[0.106s] Invoking command in '/home/eduardo/turtlebot4_ws/build/inicialization': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/robot_movement:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/inicialization -- -j12 -l12
+[0.242s] Invoked command in '/home/eduardo/turtlebot4_ws/build/inicialization' returned '0': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/robot_movement:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/inicialization -- -j12 -l12
+[0.262s] Invoking command in '/home/eduardo/turtlebot4_ws/build/inicialization': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/robot_movement:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/inicialization
+[0.268s] -- Install configuration: ""
+[0.268s] -- Execute custom install script
+[0.268s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/$<{PROJECT_NAME}//launch/demo.launch.xml
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/ament_index/resource_index/package_run_dependencies/inicialization
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/ament_index/resource_index/parent_prefix_path/inicialization
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/ament_prefix_path.sh
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/ament_prefix_path.dsv
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/path.sh
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/environment/path.dsv
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.bash
+[0.269s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.sh
+[0.270s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.zsh
+[0.270s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/local_setup.dsv
+[0.270s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/package.dsv
+[0.277s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/ament_index/resource_index/packages/inicialization
+[0.278s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/cmake/inicializationConfig.cmake
+[0.278s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/cmake/inicializationConfig-version.cmake
+[0.278s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/inicialization/share/inicialization/package.xml
+[0.280s] Invoked command in '/home/eduardo/turtlebot4_ws/build/inicialization' returned '0': AMENT_PREFIX_PATH=/home/eduardo/turtlebot4_ws/install/robot_movement:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/eduardo/turtlebot4_ws/install/robot_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/inicialization

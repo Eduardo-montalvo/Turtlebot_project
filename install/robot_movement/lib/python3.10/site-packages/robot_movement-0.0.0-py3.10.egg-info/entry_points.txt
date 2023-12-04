@@ -1,3 +1,0 @@
-[console_scripts]
-Messager = robot_movement.velocity_publisher:main
-Movement_exec = robot_movement.node_movement:main

@@ -4,7 +4,6 @@ setup.py
 ../../build/robot_movement/robot_movement.egg-info/PKG-INFO
 ../../build/robot_movement/robot_movement.egg-info/SOURCES.txt
 ../../build/robot_movement/robot_movement.egg-info/dependency_links.txt
-../../build/robot_movement/robot_movement.egg-info/entry_points.txt
 ../../build/robot_movement/robot_movement.egg-info/requires.txt
 ../../build/robot_movement/robot_movement.egg-info/top_level.txt
 ../../build/robot_movement/robot_movement.egg-info/zip-safe
