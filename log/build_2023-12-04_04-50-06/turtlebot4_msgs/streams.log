@@ -1,0 +1,185 @@
+[0.263s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs
+[0.274s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.420s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.489s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.842s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.286s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.306s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.306s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.307s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.321s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.322s] -- Added test 'lint_cmake' to check CMake code style
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.326s] -- Configuring done
+[1.357s] -- Generating done
+[1.360s] -- Build files have been written to: /home/eduardo/turtlebot4_ws/build/turtlebot4_msgs
+[1.429s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/eduardo/turtlebot4_ws/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs
+[1.430s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_msgs -- -j12 -l12
+[1.465s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_generator_c[0m
+[1.474s] [  2%] Built target turtlebot4_msgs__cpp
+[1.475s] [ 12%] Built target turtlebot4_msgs__rosidl_generator_c
+[1.482s] [ 12%] Built target ament_cmake_python_symlink_turtlebot4_msgs
+[1.484s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_cpp[0m
+[1.485s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.486s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.488s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_c[0m
+[1.488s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_introspection_c[0m
+[1.490s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.501s] [ 23%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[1.502s] [ 36%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[1.503s] [ 44%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[1.503s] [ 55%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[1.506s] [ 68%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[1.506s] [ 76%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[1.525s] [ 76%] Built target turtlebot4_msgs
+[1.545s] [ 78%] Built target turtlebot4_msgs__py
+[1.555s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_generator_py[0m
+[1.570s] [ 87%] Built target turtlebot4_msgs__rosidl_generator_py
+[1.581s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.581s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_c__pyext[0m
+[1.581s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.594s] [ 95%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.594s] [ 95%] Built target turtlebot4_msgs__rosidl_typesupport_c__pyext
+[1.594s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext
+[1.758s] running egg_info
+[1.758s] writing turtlebot4_msgs.egg-info/PKG-INFO
+[1.758s] writing dependency_links to turtlebot4_msgs.egg-info/dependency_links.txt
+[1.758s] writing top-level names to turtlebot4_msgs.egg-info/top_level.txt
+[1.760s] reading manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[1.761s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[1.782s] [100%] Built target ament_cmake_python_build_turtlebot4_msgs_egg
+[1.793s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/eduardo/turtlebot4_ws/build/turtlebot4_msgs -- -j12 -l12
+[1.882s] Invoking command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_msgs
+[1.889s] -- Install configuration: ""
+[1.889s] -- Execute custom install script
+[1.889s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs
+[1.890s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__functions.h
+[1.890s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.h
+[1.890s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.h
+[1.890s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__functions.h
+[1.890s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__functions.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.h
+[1.891s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.h
+[1.892s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.h
+[1.892s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.sh
+[1.892s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.dsv
+[1.893s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_c.h
+[1.893s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_c.h
+[1.893s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_c.h
+[1.893s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.894s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_c.h
+[1.894s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_c.h
+[1.894s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_c.h
+[1.894s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.894s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__builder.hpp
+[1.894s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.hpp
+[1.895s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__traits.hpp
+[1.895s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__builder.hpp
+[1.895s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.hpp
+[1.895s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__traits.hpp
+[1.896s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__builder.hpp
+[1.896s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.hpp
+[1.896s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__traits.hpp
+[1.896s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.hpp
+[1.896s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.hpp
+[1.897s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.hpp
+[1.897s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_cpp.hpp
+[1.897s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_cpp.hpp
+[1.897s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_cpp.hpp
+[1.897s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.898s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_cpp.hpp
+[1.898s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_cpp.hpp
+[1.898s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_cpp.hpp
+[1.898s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.sh
+[1.899s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.dsv
+[1.899s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/PKG-INFO
+[1.899s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/SOURCES.txt
+[1.899s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/dependency_links.txt
+[1.899s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/top_level.txt
+[1.900s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/__init__.py
+[1.900s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
+[1.901s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.901s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.901s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/libturtlebot4_msgs__rosidl_generator_py.so
+[1.901s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/__init__.py
+[1.901s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_button.py
+[1.902s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_button_s.c
+[1.902s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_display.py
+[1.902s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_display_s.c
+[1.902s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_led.py
+[1.902s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_led_s.c
+[1.902s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.903s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.903s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.903s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.903s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.903s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.904s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.idl
+[1.904s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.idl
+[1.904s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.idl
+[1.904s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.msg
+[1.904s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.msg
+[1.905s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.msg
+[1.905s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs
+[1.905s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs
+[1.905s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.sh
+[1.906s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.dsv
+[1.906s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.sh
+[1.906s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.dsv
+[1.906s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.bash
+[1.907s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.sh
+[1.907s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.zsh
+[1.907s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.dsv
+[1.907s] -- Symlinking: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv
+[1.915s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/ament_index/resource_index/packages/turtlebot4_msgs
+[1.915s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake-extras.cmake
+[1.916s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.916s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.916s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.916s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.916s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.916s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.917s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig.cmake
+[1.917s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig-version.cmake
+[1.917s] -- Up-to-date symlink: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/package.xml
+[1.917s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so
+[1.918s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so
+[1.918s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so
+[1.918s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so
+[1.919s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.920s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so
+[1.920s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so
+[1.947s] Listing '/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs'...
+[1.947s] Compiling '/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/__init__.py'...
+[1.947s] Listing '/home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg'...
+[1.951s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so
+[1.951s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport.cmake
+[1.952s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cppExport.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport.cmake
+[1.953s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.954s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport.cmake
+[1.954s] -- Up-to-date: /home/eduardo/turtlebot4_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.013s] Invoked command in '/home/eduardo/turtlebot4_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/eduardo/turtlebot4_ws/build/turtlebot4_msgs

@@ -6,3 +6,7 @@ Instructions on how to clone the repo
 4. git add -A
 5. git pull
 6. ros2 launch turtlebot4_ignition_bringup ignition.launch.py
+
+Launch the simulation with the launch file
+1. source install/setup.bash
+2. ros2 launch inicialization demo.launch.xml

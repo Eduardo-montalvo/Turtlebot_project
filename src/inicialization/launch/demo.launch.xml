@@ -1,5 +1,5 @@
 <launch>
     <node pkg="robot_movement" exec="node_movement" />
-    <node pkg="robot_movement" exec="velocity_publisher" />
-    <ndoe pkg="turtlebot4_simulator" exec="ignition.launch.py" name="mi_turtlebot" output="screen" parameters=[{"model": "lite"}]/>
+    <!--node pkg="robot_movement" exec="velocity_publisher" /-->
+    <!--node pkg="turtlebot4_ignition_bringup" exec="ignition.launch.py" /-->
 </launch>
